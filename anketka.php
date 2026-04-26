@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Анкета – Лабораторная №5</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Иконка для фото (можно использовать простую заглушку) -->
+    
 </head>
 <body>
 <div class="container">
@@ -115,12 +115,12 @@
         </div>
 
         <div class="image-column">
-            <!-- Декоративное изображение – замените на своё (URL) или оставьте как пример -->
-            <img src="https://via.placeholder.com/300x400?text=Your+Photo+Here" alt="Profile decoration" class="profile-img">
+            
+            <img src="kart.jpg" alt="Profile decoration" class="profile-img">
         </div>
     </div>
 
-    <div class="footer-links">
+    <div class="back-link">
         <a href="registration.php">🔐 Войти (если уже есть логин/пароль)</a>
         <a href="prosmotr.php">📊 Просмотреть анкеты</a>
     </div>
