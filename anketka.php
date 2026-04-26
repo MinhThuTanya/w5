@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Анкета – Лабораторная №5</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .task {
+    background: #1e1e2a;
+    border: 1px solid #f5b042;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.screenshot {
+    text-align: center;
+}
+.screenshot img {
+    max-width: 100%;
+    border-radius: 16px;
+    border: 1px solid #f5b042;
+}
+.caption {
+    font-style: italic;
+    color: #ccc;
+    margin-top: 8px;
+}
+    </style>
     
 </head>
 <body>
@@ -129,6 +151,18 @@
             <small>Для редактирования данных нужна авторизация</small>
         </div>
     <?php endif; ?>
+</div>
+
+<div class="container">
+        <!-- Блок: изменение структуры БД для 5-й лабораторной -->
+        <div class="task" style="margin-top: 30px;">
+            <h2>Изменение структуры базы данных</h2>
+            <div class="screenshot">
+                <img src="iii.png" alt="ALTER TABLE application">
+                <div class="caption">Скриншот: добавление колонок login и password_hash</div>
+            </div>
+        </div>
+
 </div>
 </body>
 </html>
