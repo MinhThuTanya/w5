@@ -70,19 +70,17 @@ h1 {
 .image-column {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background: rgba(0,0,0,0.3);
     border-radius: 28px;
-   
     border: 1px solid rgba(245, 176, 66, 0.4);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    
 }
 
 .profile-img {
     width: 100%;
     height: auto;
     border-radius: 24px;
+    display: block; 
     transition: transform 0.3s;
 }
 .profile-img:hover {
