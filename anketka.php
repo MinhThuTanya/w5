@@ -116,7 +116,7 @@
 
         <div class="image-column">
             
-            <img src="kart2.jpg" alt="Profile decoration" class="profile-img">
+            <img src="kart.jpg" alt="Profile decoration" class="profile-img">
         </div>
     </div>
 
